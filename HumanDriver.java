@@ -14,7 +14,7 @@ class Human implements Cloneable
 	}
 	public String toString()
 	{
-		return this.name+" ,"+this.place+" , "+this.gender+" ,"+this.profession;
+		return this.name+", "+this.place+", "+this.gender+", "+this.profession;
 	}
 	protected Object clone() throws CloneNotSupportedException
 	{

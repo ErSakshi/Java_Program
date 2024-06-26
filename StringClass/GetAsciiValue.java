@@ -1,20 +1,24 @@
-//write a java program to get the ascii values of all the characters dynamically
-import java.util.Scanner;
+//WAJP to get ASCII value of all characters dianamically
+import java.util.*;
 class GetAsciiValue
 {
-	public static void main(String[] args)
-	 {
-	   Scanner sc=new Scanner(System.in);
-	   System.out.print("Enter the name ");
-	   String name=sc.next();
+	public static void main(String[] args) 
+	{
+	   	Scanner sc=new Scanner(System.in);
+	   	System.out.println("Enter the String : ");
+	   	String name=sc.next();
 
-	    for(int i=0;i<name.length();i++)
-	     {
-	    	char ch=name.charAt(i);
-            int asciiData=ch; //widening
-            System.out.print(asciiData+" ");
-           
-	    }
+	   	for(int i=0;i<name.length();i++)
+	   	{
+	   		char ch=name.charAt(i);
+	   		int ascii=ch;  //widening
+	   		char prt=(char)ascii; //NARROWING
+	   		int prt2=prt+32;
+	   		char prt3=(char)prt2;
+ 
+           //System.out.println(prt);
+	   		System.out.println(prt3) ;
+	   	}
 
 	}
 }

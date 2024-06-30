@@ -25,3 +25,5 @@ class CountingCharacters
 	  }
 
 	}
+
+//WAJP to find the count of repeated characters

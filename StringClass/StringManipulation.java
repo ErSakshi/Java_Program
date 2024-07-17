@@ -23,4 +23,4 @@ class StringManipulation
 		System.out.println("Original : "+str);
 		System.out.println("Resultant : "+newString);
 	}
-}
+}	

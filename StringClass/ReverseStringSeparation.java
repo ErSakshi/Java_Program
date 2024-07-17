@@ -23,7 +23,7 @@ class ReverseStringSeparation
          	char ch=str.charAt(i);
          	part2+=ch;
          }
-	  }
+	  }	
 	  else 
 	  {
 	  	System.out.println("String is not having equal length");

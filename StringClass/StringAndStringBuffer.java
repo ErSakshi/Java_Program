@@ -15,7 +15,7 @@ class StringAndStringBuffer
 	System.out.println(str1==str2);
 
 		 StringBuffer str3=new StringBuffer("python");
-		StringBuffer str4=new StringBuffer("python");
+		StringBuffer str4=new StringBuffer("python");  //false 
 
 		System.out.println(str3==str4);
 

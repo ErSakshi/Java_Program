@@ -2,15 +2,15 @@ class Demo
 {
 	public static void main(String[] args) 
 	{
-	  // System.out.println(Thread.currentThread().getName());
-	  // for(int i=1;i<=10;i++)
-	  // {
-	  // 	System.out.println(i+" ");
-	  // 	Thread.sleep(i+" ");
-	  // 	Thread.sleep(300);
-      //	}
+	   StringBuffer sb=new StringBuffer();
+	   sb.append("Karthik"+"\n");
+	   sb.append("has"+"\n");
+	   sb.append(2+" girlfriends"+"\n");
+	   sb.append("and it is true");
 
-		System.out.println("Hello");
-		System.out.println(10/0);
-	  }	
+     System.out.println(sb);
+
+     
+     System.out.println(sb);
 	}
+}

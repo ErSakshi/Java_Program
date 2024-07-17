@@ -20,10 +20,10 @@ class EndsWith
 	public static boolean endsWith(String str1)
 	{
 		boolean flag=false;
-		for(int i=str1.length()-1,j=str.length()-1;i>=0;i--,j--)
+		for(int i=str.length()-1,j=str1.length()-1;i>=0;i--,j--)
 		{
-			char ch=str1.charAt(i);
-			if(ch==str.charAt(j))
+			// char ch=str1.charAt(i);
+			if(ch==str1.charAt(j))
 			{
 				flag=true;
 				break;

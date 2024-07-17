@@ -24,6 +24,7 @@ class StringSeparationEqually
          	char ch=str.charAt(i);
          	part2+=ch;
          }
+         
 	  }
 	  else 
 	  {

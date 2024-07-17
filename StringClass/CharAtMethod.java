@@ -22,4 +22,4 @@ class CharAtMethod
 		}
 		return arr[indx];
 	}
-}
+} 
